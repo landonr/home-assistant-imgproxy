@@ -14,10 +14,10 @@ map:
   - share:rw
 options:
   signature_key: "your_signature_key"
-  port: "host-port"
+  host-port: "host-port"
 schema:
   signature_key: "str?"
 ports:
-  8080/tcp: $host-port
+  8080/tcp: host-port
 version: latest
 image: "darthsim/imgproxy"
