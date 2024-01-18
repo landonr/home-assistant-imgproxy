@@ -1,6 +1,5 @@
 # Example add-on for Imgproxy
 name: Imgproxy
-version: "1.0.0"
 slug: imgproxy
 description: Imgproxy Add-on for Home Assistant
 url: "https://github.com/landonr/home-assistant-imgproxy"
@@ -17,4 +16,5 @@ options:
   signature_key: "your_signature_key"
 schema:
   signature_key: "str?"
-image: "darthsim/imgproxy:latest"
+version: latest
+image: "darthsim/imgproxy-{arch}"
