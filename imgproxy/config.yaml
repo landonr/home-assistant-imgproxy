@@ -17,4 +17,4 @@ options:
 schema:
   signature_key: "str?"
 version: latest
-image: "darthsim/imgproxy-{arch}"
+image: "darthsim/imgproxy:{arch}"
