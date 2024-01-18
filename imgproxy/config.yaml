@@ -1,8 +1,20 @@
-{
-  "name": "Imgproxy",
-  "version": "1.0.0",
-  "slug": "imgproxy",
-  "description": "Imgproxy Add-on for Home Assistant",
-  "arch": ["armhf", "armv7", "amd64", "aarch64"],
-  "image": "darthsim/imgproxy"
-}
+# Example add-on for Imgproxy
+name: Imgproxy
+version: "1.0.0"
+slug: imgproxy
+description: Imgproxy Add-on for Home Assistant
+url: "https://github.com/landonr/home-assistant-imgproxy"
+arch:
+  - armhf
+  - armv7
+  - aarch64
+  - amd64
+  - i386
+init: false
+map:
+  - share:rw
+options:
+  signature_key: "your_signature_key"
+schema:
+  signature_key: "str?"
+image: "darthsim/imgproxy:latest"
