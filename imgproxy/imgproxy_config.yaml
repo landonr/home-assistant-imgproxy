@@ -1,7 +1,5 @@
-# Example imgproxy configuration
-signature_key: "your_signature_key"
-
-port:
+# Image Proxy Configuration
+host-port:
   name: Port
   description: "Specify the port for Imgproxy"
   default: 8080
