@@ -1,0 +1,8 @@
+{
+  "name": "Imgproxy",
+  "version": "1.0.0",
+  "slug": "imgproxy",
+  "description": "Imgproxy Add-on for Home Assistant",
+  "arch": ["armhf", "armv7", "amd64", "aarch64"],
+  "repository": "https://github.com/landonr/home-assistant-imgproxy"
+}
