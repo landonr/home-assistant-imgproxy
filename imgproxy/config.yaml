@@ -18,6 +18,6 @@ options:
 schema:
   signature_key: "str?"
 ports:
-  8080/tcp: 8080
+  8080/tcp: host-port
 version: latest
 image: "darthsim/imgproxy"
