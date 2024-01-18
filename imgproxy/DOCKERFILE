@@ -8,7 +8,7 @@ WORKDIR /usr/src/app
 COPY imgproxy_config.yml /etc/imgproxy/imgproxy_config.yml
 
 # Expose required ports
-EXPOSE 8080
+EXPOSE !{port}
 
 # Set the command to run your application
 CMD ["imgproxy", "-config", "/etc/imgproxy/imgproxy_config.yml"]

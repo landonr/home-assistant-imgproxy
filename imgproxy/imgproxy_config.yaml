@@ -1,2 +1,10 @@
 # Example imgproxy configuration
 signature_key: "your_signature_key"
+
+port:
+  name: Port
+  description: "Specify the port for Imgproxy"
+  default: 8080
+  required: true
+  example: 8080
+  type: int

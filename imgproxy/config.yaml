@@ -16,5 +16,7 @@ options:
   signature_key: "your_signature_key"
 schema:
   signature_key: "str?"
+ports:
+  8080/tcp: {port}
 version: latest
 image: "darthsim/imgproxy"
