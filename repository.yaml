@@ -1,0 +1,4 @@
+# https://developers.home-assistant.io/docs/add-ons/repository#repository-configuration
+name: Image Proxy Add-on
+url: 'https://github.com/landonr/home-assistant-imgproxy'
+maintainer: Landon Rohatensky <landonroha@gmail.com>
