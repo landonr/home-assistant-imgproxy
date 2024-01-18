@@ -1,0 +1,14 @@
+ARG BUILD_FROM
+FROM $BUILD_FROM
+
+# Set the working directory
+WORKDIR /usr/src/app
+
+# Copy necessary files
+COPY imgproxy_config.yml /etc/imgproxy/imgproxy_config.yml
+
+# Expose required ports
+EXPOSE 8080
+
+# Set the command to run your application
+CMD ["imgproxy", "-config", "/etc/imgproxy/imgproxy_config.yml"]
